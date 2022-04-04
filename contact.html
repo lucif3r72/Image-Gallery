@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css" integrity="sha512-oXqkIy/+iqrHrpoTwFkSLZJpNwoYn9e77QtCNzBi+Jb6uJgTtcdHVy0C+nEpeUfC3fxSbydPxLG+ndikNVvrdQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<title>Contact Us</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+	 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" width="51" height="43">
+            HoriXon
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 myNav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+            </ul>
+        </div>
+      </div>
+  </nav>
+<section id="contact">
+       <div class="container">
+           <h2 class="text-center">We'd love to hear from You</h2>
+           <p class="text-center w-75 m-auto">While we are good at starting coversations, there are simpler ways for us to get in touch and answer your questions... </p>
+           <div class="row">
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i aria-hidden="true">
+                      <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/phone.png"/>
+                    </i>
+                    <h4 class="text-uppercase mb-5">call us</h4>
+                    <p>+919152811404</p>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i aria-hidden="true">
+                      <img class = "icon" src="https://img.icons8.com/ios-filled/50/000000/pinterest--v1.png"/>
+                    </i>
+                    <h4 class="text-uppercase mb-5">Pinterest</h4>
+                   <a class="email" href="https://in.pinterest.com/Lucif3r72/">Click Here!</a>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i aria-hidden="true">
+                      <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png"/>
+                    </i>
+                    <h4 class="text-uppercase mb-5">office location</h4>
+                    <address>Mumbai, India </address>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i aria-hidden="true">
+                      <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/new-post.png"/>
+                    </i>
+                    <h4 class="text-uppercase mb-5">email</h4>
+                    <a class="email" href="mailto:lucif3r721@gmail.com">Click Here!</a>
+                  </div>
+                </div>
+             </div>
+           </div>
+       </div>
+    </section>
+    <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+        <div class="well well-sm">
+          <form class="form-horizontal" action = "sendEmail.php" method="post">
+          <fieldset>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-12">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-12">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="subject">Subject</label>
+              <div class="col-md-12">
+                <input id="subject" name="subject" type="text" placeholder="Your subject" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="Message">Your message</label>
+              <div class="col-md-12">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" name="submit" class="btn btn-secondary btn-md">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+    <footer>
+	    <div class="text-center text-white p-3 bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+	        © 2020 Copyright:
+	        <a class="text-white" href="https://www.linkedin.com/in/nadir-shaikh-a43a41220/">Nadir Sheikh</a>
+	    </div>
+  	</footer>
+</body>
+</html>
